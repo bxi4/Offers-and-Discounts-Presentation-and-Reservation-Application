@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "597520502703",
+    "project_id": "orop-d5b93",
+    "storage_bucket": "orop-d5b93.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:597520502703:android:27a9db9b8ee0afcdefe95a",
+        "android_client_info": {
+          "package_name": "com.magdy.orop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "597520502703-r710nb7jhkdk4buolvoimunnkkamjo6r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.magdy.orop",
+            "certificate_hash": "1894d3223a1d1bc9d728e5bae3e3681f05520713"
+          }
+        },
+        {
+          "client_id": "597520502703-3tgept0vhikrhkik6uhgqkf1eb5so0n5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvVS-dTVHR5JmoK54ubQVqE72NAsoiStg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "597520502703-3tgept0vhikrhkik6uhgqkf1eb5so0n5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

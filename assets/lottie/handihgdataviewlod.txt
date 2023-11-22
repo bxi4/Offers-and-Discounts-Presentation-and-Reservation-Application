@@ -1,0 +1,43 @@
+import 'package:flutter/material.dart';
+import 'package:orop/core/class/statusrequest.dart';
+
+class HaindlingDataView extends StatelessWidget {
+  final StatusRequest statusRequest;
+  final Widget widget;
+  const HaindlingDataView(
+      {Key? key, required this.statusRequest, required this.widget})
+      : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return statusRequest == StatusRequest.loding
+        ? const Center(child: Text("Loading"))
+        : statusRequest == StatusRequest.offlinefailure
+            ? const Center(child: Text("Offline Failure"))
+            : statusRequest == StatusRequest.serverfailure
+                ? const Center(child: Text("Server Failure"))
+                : statusRequest == StatusRequest.failure
+                    ? const Center(
+                        child: Text("No Data", style: TextStyle(fontSize: 30)))
+                    : widget;
+  }
+}
+
+class HaindlingDataRequest extends StatelessWidget {
+  final StatusRequest statusRequest;
+  final Widget widget;
+  const HaindlingDataRequest(
+      {Key? key, required this.statusRequest, required this.widget})
+      : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return statusRequest == StatusRequest.loding
+        ? const Center(child: Text("Loading"))
+        : statusRequest == StatusRequest.offlinefailure
+            ? const Center(child: Text("Offline Failure"))
+            : statusRequest == StatusRequest.serverfailure
+                ? const Center(child: Text("Server Failure"))
+                : widget;
+  }
+}
